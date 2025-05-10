@@ -11,12 +11,12 @@ Basic boilerplate and template to get flask app running
  venv/bin/python3 app.py  
 
 ## features:
+ session based auth  
  test script
  config  
  basic flask app  
 
 ## to do:
- session based auth  
  templates  
  static files  
 

@@ -3,3 +3,4 @@ flaskapp.wsgi
 *.pyc
 *.swp
 venv
+cookie.txt
