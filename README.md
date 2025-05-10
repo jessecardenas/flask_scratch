@@ -3,6 +3,7 @@
 Basic boilerplate and template to get flask app running
 
 ## to set up
+ edit config.py
  python3 -m venv venv  
  . venv/bin/activate  
  pip install -r requirements.txt  
