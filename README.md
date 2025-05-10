@@ -19,4 +19,6 @@ Basic boilerplate and template to get flask app running
 ## to do:
  templates  
  static files  
+ apache setup
+ uwsgi setup
 
