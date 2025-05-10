@@ -3,7 +3,7 @@
 Basic boilerplate and template to get flask app running
 
 ## to set up
- edit config.py
+ edit config.py  
  python3 -m venv venv  
  . venv/bin/activate  
  pip install -r requirements.txt  
@@ -12,14 +12,14 @@ Basic boilerplate and template to get flask app running
  venv/bin/python3 app.py  
 
 ## features:
+ static files  
+ templates  
  session based auth  
- test script
+ test script  
  config  
  basic flask app  
 
 ## to do:
- templates  
- static files  
- apache setup
- uwsgi setup
+ apache setup  
+ uwsgi setup  
 

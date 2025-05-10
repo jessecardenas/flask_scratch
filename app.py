@@ -1,15 +1,15 @@
 #!python3
-from flask import Flask, session, request
+from flask import Flask, session, request, render_template
 from functools import wraps
 from utils import auth
 import config as cfg
 
-app = Flask(__name__)
+app = Flask(__name__, template_folder='resources/templates', static_folder='resources/static')
 app.config.from_object('config.FlaskConfig')
 
 @app.route("/")
-def hello_world():
-    return "<p>Hello, World!</p>\n"
+def index():
+    return render_template('index.html')
 
 @app.route('/auth/login', methods=['GET', 'POST'])
 def auth_login():
