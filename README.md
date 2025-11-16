@@ -20,10 +20,11 @@ Basic boilerplate and template to get flask app running
  test script  
  config  
  basic flask app  
+ sqlite auth backend
 
 ## to do:
- apache setup  
- uwsgi setup  
- sqlite auth backend
- password resets
+ apache setup
+ uwsgi setup
+ html login page
+ password reset
  sqlite user management
