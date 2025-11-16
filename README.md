@@ -22,4 +22,6 @@ Basic boilerplate and template to get flask app running
 ## to do:
  apache setup  
  uwsgi setup  
-
+ sqlite auth backend
+ password reset
+ user management

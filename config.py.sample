@@ -4,5 +4,8 @@ class FlaskConfig:
     #SECRET_KEY = os.urandom(24)
     SECRET_KEY = 'snuggledy_wubbins_wuggly_tuffins' # change this to something random. session encrypt key, and other things
 
-auth_type = 'mock'
+
+# auth_type = 'mock'
+auth_type = 'sqlite'
+sqlite_file = 'app.db'
 
