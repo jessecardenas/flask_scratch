@@ -7,6 +7,8 @@ Basic boilerplate and template to get flask app running
  python3 -m venv venv  
  . venv/bin/activate  
  pip install -r requirements.txt  
+ python -m scripts.init_db
+ python -m scripts.create_admin
 
 ## to run
  venv/bin/python3 app.py  
@@ -22,5 +24,6 @@ Basic boilerplate and template to get flask app running
 ## to do:
  apache setup  
  uwsgi setup  
+ sqlite auth backend
  password resets
- sqlite user manament
+ sqlite user management

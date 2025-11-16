@@ -4,3 +4,4 @@ flaskapp.wsgi
 *.swp
 venv
 cookie.txt
+app.db
