@@ -16,7 +16,7 @@ def auth_login():
     if request.method == 'POST':
         username = request.form['username']
         password = request.form['password']
-        if auth.check_auth(username, password, auth_source=cfg.auth_source):
+        if auth.check_auth(username, password, auth_source=cfg.auth_type):
             session.clear()
             session['username'] = username
             session.permanent = True
